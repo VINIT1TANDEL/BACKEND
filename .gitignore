@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment variables
+config/config.env
+
+# Runtime data
+pids/
+*.pid
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+
+# Build and dist
+build/
+dist/
+
+# Coverage reports
+coverage/
+
+# Temp files
+*.tmp
+*.temp
+
+# Optional: database files (if using local JSON/SQLite/etc.)
+*.sqlite
+*.db
