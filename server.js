@@ -17,7 +17,7 @@ dotenv.config({ path: "backend/config/config.env" });
 
 // Enable CORS
 app.use(cors({
-    origin: "https://frontend-2-2vjy.vercel.app/" ||  process.env.FRONTEND_URL,
+    origin: "https://frontend-2-2vjy.vercel.app" ||  process.env.FRONTEND_URL,
     credentials: true,
 }));
 app.options("*", cors());
