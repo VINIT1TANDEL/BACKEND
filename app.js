@@ -12,7 +12,7 @@ dotenv.config({ path: "/config/config.env" });
 
 // CORS middleware
 app.use(cors({
-  origin:"https://frontend-2-2vjy.vercel.app/" ||  process.env.FRONTEND_URL , // change to your frontend URL in production
+  origin:"https://frontend-2-2vjy.vercel.app" ||  process.env.FRONTEND_URL , // change to your frontend URL in production
   credentials: true
 }));
 
