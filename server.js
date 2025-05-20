@@ -13,7 +13,7 @@ process.on("uncaughtException", (err) => {
 });
 
 // Load environment variables
-dotenv.config({ path: "backend/config/config.env" });
+dotenv.config({ path: "/config/config.env" });
 
 // Enable CORS
 app.use(cors({
